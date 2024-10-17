@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.class{
+    /* width: 1500px;
+    height: 82px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.class ul{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    /* width:1500px ;
+    height: 44px; */
+    color: white;
+    background-color: rgba(34, 34, 34, 1);
+
+}
+main{
+    background-image:url(image\ 5.png) ;
+    background-repeat: no-repeat;background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+
+}
+.parent{
+    margin: auto;
+    display: flex;
+    gap:50px ;
+   
+    justify-content: center;
+    padding-top: 250px;
+    
+}
+.box1{
+    color: black;
+    background-color:  rgba(241, 169, 0, 1);
+    
+    width: 235px;
+    height: 73px;
+    text-align: center;
+   align-items: center;
+   display: flex;
+}
+.box2{
+    color: white;
+    background-color:black;
+    width: 235px;
+    height: 73px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+h2{
+    margin: auto;
+}
+.big{
+    width: 966px;
+    height: 202px;
+    background-color: rgba(241, 169, 0, 0.33);
+    color: white;
+    justify-content: center;
+    margin-top: 579px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    
+
+}
+.small{
+    margin-top: 50px;
+}
